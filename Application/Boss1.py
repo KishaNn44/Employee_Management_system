@@ -1,5 +1,11 @@
+def Decoration(Options):
+    
+    print("=="*30)
+    print(f"{Options}")
+    print("=="*30)
+
 def boss_menu():                       # Menu for boss
-    print("\t\t\t\t\t----Boss Menu----")
+    Decoration("Boss Menu")
     print("--"*30)
     print("1. View My Profile")
     print("2. Edit My Profile")
